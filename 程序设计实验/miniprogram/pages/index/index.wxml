@@ -1,0 +1,13 @@
+
+
+<image src="{{picsrc}}" mode="widthFix"></image>
+
+<view class="containerx">
+<view>现有高风险地区</view>
+<view>现有中风险地区</view>
+</view>
+
+<scroll-view class="container1" enable-flex="true" > 
+  <view>从数据库拿</view>
+  <view>这个也是</view>
+</scroll-view>

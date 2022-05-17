@@ -1,0 +1,33 @@
+.containerx view {
+  height: 60px;
+ width: 300px;
+  line-height:60px;
+   text-align:center;
+
+}
+
+.containerx view:nth-child(1) {
+  background-color: red;
+  border-radius: 15px;
+}
+.containerx view:nth-child(2){
+  background-color: yellow;
+  border-radius: 15px;
+}
+.containerx{
+  display: flex;
+}
+ 
+
+.container1 view{
+  height: 234px;
+  width: 320px;
+  line-height:60px;
+ display: flex;
+border :1px solid black;
+}
+
+.container1{
+  display: flex;
+}
+ 
