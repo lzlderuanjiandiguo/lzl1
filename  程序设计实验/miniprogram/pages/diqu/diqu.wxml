@@ -1,0 +1,5 @@
+<view style="width: 100%; height:calc(100vh - 0rpx);">
+  <map style="width: 100%; height:100%" markers="{{markers}}" longitude="{{markers[0].longitude}}" latitude="{{markers[0].latitude}}" data-markers="{{markers}}" >
+  </map>
+</view>
+

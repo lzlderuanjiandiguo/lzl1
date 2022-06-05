@@ -1,0 +1,22 @@
+
+
+<image src="{{picsrc}}" mode="widthFix"></image>
+
+<view class="containerx">
+<view>现有高风险地区</view>
+<view>现有中风险地区</view>
+</view>
+
+
+
+<view class="containery">
+  <scroll-view class='left' scroll-y>
+<view class="zuo" wx:for="{{data1}}">
+  {{item}}
+</view>
+</scroll-view>
+<scroll-view class='right' scroll-y>
+<view view class="you" wx:for="{{data2}}">
+  {{item}}
+</view></scroll-view>
+</view>
